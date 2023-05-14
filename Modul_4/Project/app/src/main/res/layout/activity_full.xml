@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#E6E6FE"
+    tools:context=".TextFragment">
+
+    <TextView
+        android:id="@+id/detail_text_view"
+        android:layout_width="363dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="30dp"
+        android:text="Universitas Trunojoyo Madura (UTM) adalah perguruan tinggi negeri yang didirikan di Madura, Jawa Timur. Universitas yang berada di atas lahan seluas 30 hektare ini berlokasi sekitar 5 kilometer dari pelabuhan Kamal dan sekitar 15 kilometer dari Kota Bangkalan.
+
+Pendirian Universitas Trunojoyo Madura dilatarbelakangi oleh keinginan masyarakat Madura untuk memiliki sebuah Perguruan Tinggi Negeri. Universitas Trunojoyo Madura sendiri sebelumnya merupakan Universitas Bangkalan Madura (Unibang). Unibang berubah menjadi UTM seiring dengan perubahan statusnya dari Perguruan Tinggi Swasta menjadi Perguruan Tinggi Negeri pada tanggal 5 Juli 2001 berdasarkan Keputusan Presiden (Keppres) RI Nomor 85 Tahun 2001. Universitas ini diresmikan pada tanggal 23 Juli 2001 melalui sambutan KH. Abdurrahman Wahid yang merupakan Presiden Republik Indonesia pada saat itu."
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="14sp" />
+
+    <Button
+        android:id="@+id/buttonkembali"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="450dp"
+        android:backgroundTint="#5C10E3"
+        android:text="Kembali" />
+
+</FrameLayout>
