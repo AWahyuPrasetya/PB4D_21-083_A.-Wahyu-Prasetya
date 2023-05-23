@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#E6E6FE"
+    tools:context=".ProfileActivity">
+
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="Nama saya Ridoi, umur saya 22 tahun saya tinggal di Surabaya, saat ini saya menempuh pendidikan perguruan tinggi di Universitas Trunojoyo Madura, hobi saya adalah membaca komik dan bermain game online, cita-cita saya adalah menjadi videografer terkenal karena saya menyukai hal-hal yang berkaitan dengan videografi, saya juga memiliki hubaungan spesial dengan teman saya yang bernama Nur Rizkina yang sudah berjalan selama kurang lebih 8 tahun, saya sudah berpacaran dengannya dari smp”"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:textColor="#000000"
+        app:layout_constraintEnd_toEndOf="@+id/imageView"
+        app:layout_constraintHorizontal_bias="0.504"
+        app:layout_constraintStart_toStartOf="@+id/imageView"
+        app:layout_constraintTop_toBottomOf="@+id/imageView" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="127dp"
+        android:layout_height="198dp"
+        android:layout_marginTop="50dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/rid" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
